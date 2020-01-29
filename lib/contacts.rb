@@ -15,5 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+:favorite_ice_cream_flavors" do
+    result = remove_strawberry(contacts)
+    expect(result["Freddy Mercury"][:favorite_ice_cream_flavors]).to_not include("strawberry")
 end
